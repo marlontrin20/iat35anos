@@ -1,0 +1,9 @@
+configuração do consig.xml
+<preference name="Fullscreen" value="true" />
+<splash src="res/splash.png" />
+    
+<preference name="AutoHideSplashScreen" value="true" />
+    
+<preference name="SplashScreenDelay" value="8000" />
+
+cordova plugin add cordova-plugin-splashscreen
