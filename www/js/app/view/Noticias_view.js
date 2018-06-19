@@ -14,8 +14,9 @@ Noticia_View =
                     <p>Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
             </div>`;
-            
+
             return string;
+            //marlon trindade ferreira
         },
         getInit: function () {
             Noticia_View.templat_view();
