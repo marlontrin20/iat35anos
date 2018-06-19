@@ -16,7 +16,6 @@ Noticia_View =
             </div>`;
 
             return string;
-            //marlon trindade ferreira 2
         },
         getInit: function () {
             Noticia_View.templat_view();
