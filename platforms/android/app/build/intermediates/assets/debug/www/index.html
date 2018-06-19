@@ -7,7 +7,8 @@
         <title>Iat 35 Anos</title>
 
         <!-- CSS  -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+        <link rel="stylesheet" href="css/icons/material.css">
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     </head>
@@ -142,16 +143,14 @@
         </footer>
         <!--  Scripts-->
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="js/materialize.js"></script>
-        <script src="js/init.js"></script>
+        <script src="js/app/materialize/materialize.js"></script>
+        <script src="js/app/init.js"></script>
+        <script src="js/app/controller/Home.js"></script>
         <script>
-
+            
             $(document).ready(function()
             {
-                $('#idPesquisa').click(function()
-                {
-                    $('#boxBuscar').toggle('slow');
-                });
+                Home_Controller.getInit();
             });
 
         </script>

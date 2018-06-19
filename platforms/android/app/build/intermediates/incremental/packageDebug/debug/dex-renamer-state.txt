@@ -1,4 +1,4 @@
-#Wed Jun 13 11:12:18 GMT-03:00 2018
+#Fri Jun 15 15:11:14 GMT-03:00 2018
 base.0=C\:\\projetoMobileIat\\iat35anos\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
 file.0=C\:\\projetoMobileIat\\iat35anos\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
